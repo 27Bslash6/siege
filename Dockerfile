@@ -18,7 +18,7 @@ RUN apt-get update \
     && wget --retry-connrefused --waitretry=1 -t 5 --progress=bar -O - "http://download.joedog.org/siege/siege-${SIEGE_VERSION}.tar.gz" | tar xzf - -C /tmp \
     && cd /tmp/siege-${SIEGE_VERSION} \
     && ./configure \
-    && make install
+    && make install \
     && apt-get -qy purge g++ make libssl-dev \
     && apt-get autoremove -y \
     && apt-get clean \
