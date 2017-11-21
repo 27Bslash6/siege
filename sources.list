@@ -1,0 +1,7 @@
+deb http://mirror.rackspace.com/debian/ jessie main
+deb http://mirror.rackspace.com/debian/ jessie-updates main
+
+# deb-src http://mirror.rackspace.com/ubuntu/ jessie main restricted universe
+# deb-src http://mirror.rackspace.com/ubuntu/ jessie-updates main restricted universe
+# deb-src http://mirror.rackspace.com/ubuntu/ jessie-backports main restricted universe
+# deb-src http://mirror.rackspace.com/ubuntu/ jessie-security main restricted universe
